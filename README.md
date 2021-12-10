@@ -17,6 +17,7 @@
 5. Click on **Import**
 6. Select the **catppuccin.itermcolors**
 7. Click on **Color Presets** and choose catppuccin
+8. Enjoy! :sparkles:
 
 ## 💝 Thanks to
 
