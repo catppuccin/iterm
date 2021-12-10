@@ -5,21 +5,19 @@
 <p align="center">Warm dark theme to show off your vibrant self!</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/sample.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/iterm/main/assets/ss.png"/>
 </p>
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
-
-## 🙋 FAQ (optional)
-
--   Q: **_"Where can I find the doc?"_**
-    A: Run `:help theme`
+1. Launch iTerm 2
+2. Type CMD+i(⌘+i)
+3. Navigate to the **Colors** tab
+4. Click on **Color Presets**
+5. Click on **Import**
+6. Select the **catppuccin.itermcolors**
+7. Click on **Color Presets** and choose catppuccin
 
 ## 💝 Thanks to
 
--   [Human](https://github.com/catppuccin)
+-   [VictorTennekes](https://github.com/VictorTennekes)
