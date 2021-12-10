@@ -11,7 +11,7 @@
 ## Usage
 
 1. Launch iTerm 2
-2. Type CMD+i(⌘+i)
+2. Type CMD+i (⌘+i)
 3. Navigate to the **Colors** tab
 4. Click on **Color Presets**
 5. Click on **Import**
