@@ -25,6 +25,42 @@
 7. Click on **Color Presets** and choose catppuccin
 8. Enjoy! :sparkles:
 
+## Associations
+
+<details>
+  <summary>Show</summary>
+
+| Iterm Field | Catppuccin Color |
+| ----------- | ---------------- |
+| Foreground | Text |
+| Bold | Text |
+| Cursor | Text |
+| Cursor Guide | Text |
+| Background | Base |
+| Selected Text | Base |
+| Badge | Red |
+| Cursor text | Base |
+| Links | Lavender |
+| Selection | Overlay0 |
+| Black | Base |
+| Black Bright | Surface1 |
+| Red | Red |
+| Red Bright | Red |
+| Green | Green |
+| Green Bright | Green |
+| Yellow | Yellow |
+| Yellow Bright | Yellow |
+| Blue | Blue |
+| Blue Bright | Blue |
+| Magenta | Mauve |
+| Magenta Bright | Mauve |
+| Cyan | Sky |
+| Cyan Bright | Sky |
+| White | Text |
+| White Bright | Text |
+
+</details>
+
 ## 💝 Thanks to
 
 -   [VictorTennekes](https://github.com/VictorTennekes)
