@@ -16,50 +16,16 @@
 
 ## Usage
 
-1. Launch iTerm 2
-2. Type CMD+i (⌘+i)
-3. Navigate to the **Colors** tab
-4. Click on **Color Presets**
-5. Click on **Import**
-6. Select the **catppuccin.itermcolors**
-7. Click on **Color Presets** and choose catppuccin
-8. Enjoy! :sparkles:
-
-## Associations
-
-<details>
-  <summary>Show</summary>
-
-| Iterm Field | Catppuccin Color |
-| ----------- | ---------------- |
-| Foreground | Text |
-| Bold | Text |
-| Cursor | Text |
-| Cursor Guide | Text |
-| Background | Base |
-| Selected Text | Base |
-| Badge | Red |
-| Cursor text | Base |
-| Links | Lavender |
-| Selection | Overlay0 |
-| Black | Base |
-| Black Bright | Surface1 |
-| Red | Red |
-| Red Bright | Red |
-| Green | Green |
-| Green Bright | Green |
-| Yellow | Yellow |
-| Yellow Bright | Yellow |
-| Blue | Blue |
-| Blue Bright | Blue |
-| Magenta | Mauve |
-| Magenta Bright | Mauve |
-| Cyan | Sky |
-| Cyan Bright | Sky |
-| White | Text |
-| White Bright | Text |
-
-</details>
+1. Clone the repository, or [download](https://github.com/catppuccin/iterm/tree/main/colors) to pick and choose specific flavours.
+2. Launch iTerm
+3. Press CMD+i (⌘+i)
+4. Navigate to the **Colors** tab
+5. Click on **Color Presets**
+6. Click on **Import**
+7. Navigate to the directory where you downloaded the files, and select the files.\
+   If you cloned the repo, they are in the `colors/` directory.
+8. Click on **Color Presets** and choose the Catppuccin flavour
+9. Enjoy! :sparkles:
 
 ## 💝 Thanks to
 
