@@ -11,25 +11,49 @@
     <a href="https://github.com/catppuccin/iterm/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/iterm?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 
 <p align="center">
-  <img src="assets/ss.png"/>
+  <img src="assets/preview.webp"/>
 </p>
+
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+<img src="assets/latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="assets/frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="assets/macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="assets/mocha.webp"/>
+</details>
 
 ## Usage
 
-1. Clone the repository, or [download](https://github.com/catppuccin/iterm/tree/main/colors) to pick and choose specific flavours.
+1. Clone the repository, or
+   [download](https://github.com/catppuccin/iterm/tree/main/colors) to pick and
+   choose specific flavours.
 2. Launch iTerm
 3. Press CMD+i (⌘+i)
 4. Navigate to the **Colors** tab
 5. Click on **Color Presets**
 6. Click on **Import**
-7. Navigate to the directory where you downloaded the files, and select the files.\
+7. Navigate to the directory where you downloaded the files, and select the
+   files.
+   \
    If you cloned the repo, they are in the `colors/` directory.
 8. Click on **Color Presets** and choose the Catppuccin flavour
 9. Enjoy! :sparkles:
 
 ## 💝 Thanks to
 
--   [VictorTennekes](https://github.com/VictorTennekes)
+- [VictorTennekes](https://github.com/VictorTennekes)
+- [winston](https://github.com/nekowinston)
 
 &nbsp;
 
