@@ -132,11 +132,11 @@ for (let [flavour, colors] of Object.entries(variants)) {
     },
     {
       key: "Selection Color",
-      col: colors.rosewater,
+      col: colors.surface2,
     },
     {
       key: "Selected Text Color",
-      col: colors.crust,
+      col: colors.text,
     },
   ];
   const compiled = Handlebars.compile(template);
