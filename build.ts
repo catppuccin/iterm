@@ -18,7 +18,7 @@ const template = `<?xml version="1.0" encoding="UTF-8"?>
     <key>Blue Component</key>
     <real>{{col.blue}}</real>
     <key>Alpha Component</key>
-    <real>1</real>
+    <real>{{col.alpha}}</real>
   </dict>
   {{/each}}
 </dict>
@@ -34,7 +34,7 @@ for (let [flavour, colors] of Object.entries(variants)) {
         value.hex.slice(3, 5),
         value.hex.slice(5, 7),
       ].map((v) => parseInt(v, 16) / 255);
-      return [key, { red, green, blue }];
+      return [key, { red, green, blue, alpha: 1 }];
     }),
   );
   const termcolor = [
@@ -128,7 +128,7 @@ for (let [flavour, colors] of Object.entries(variants)) {
     },
     {
       key: "Cursor Guide Color",
-      col: colors.rosewater,
+      col: { ...colors.text, alpha: 0.07 },
     },
     {
       key: "Selection Color",
