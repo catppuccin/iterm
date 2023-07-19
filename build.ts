@@ -124,7 +124,7 @@ for (let [flavour, colors] of Object.entries(variants)) {
     },
     {
       key: "Cursor Text Color",
-      col: colors.text,
+      col: colors.base,
     },
     {
       key: "Cursor Guide Color",
