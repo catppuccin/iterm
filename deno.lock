@@ -1,0 +1,12 @@
+{
+  "version": "3",
+  "remote": {
+    "https://deno.land/x/catppuccin@v1.1.1/mod.ts": "76871fc6d4c7abe261acb9d10e166154640625dae8c159a6231a5bde155b4cb8",
+    "https://deno.land/x/catppuccin@v1.1.1/palette.json": "0cddd2826c55c631f626a00562d0ee1f15de38893d4a7ddf4b06c9e0440fefef",
+    "https://esm.sh/v135/@xmldom/xmldom@0.8.10/denonext/xmldom.mjs": "662f238728e5edb752a4ed672557ec8b634a89df339735cfd780ae4e464ff919",
+    "https://esm.sh/v135/base64-js@1.5.1/denonext/base64-js.mjs": "37ce4431d0b110375d0cafee5cb015592b09352595aca9393e5ecf417f71fae2",
+    "https://esm.sh/v135/plist@3.1.0": "125c8065cbcc515875cc36b32edce0f35376fc40708832a713d0a337ec209432",
+    "https://esm.sh/v135/plist@3.1.0/denonext/plist.mjs": "d2f24c1ae97858193400972b4e207d354f0a7c864529aeee73da7035138dda3e",
+    "https://esm.sh/v135/xmlbuilder@15.1.1/denonext/xmlbuilder.mjs": "d70c72334abb17b2ecc1d4578d39bcba17c81dfe0602eea07dab1618c88a716c"
+  }
+}
