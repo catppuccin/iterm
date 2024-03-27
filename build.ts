@@ -19,11 +19,9 @@ const termcolors = (flavorName: FlavorName, suffix?: "Dark" | "Light") => {
   const { dark, ...flavor } = flavors[flavorName];
 
   const colors = flavor.colorEntries.reduce((acc, [colorName, color]) => {
-    const [red, green, blue] = [
-      color.hex.slice(1, 3),
-      color.hex.slice(3, 5),
-      color.hex.slice(5, 7),
-    ].map((v) => parseInt(v, 16) / 255);
+    // iTerm needs rgb colors between 0.0 and 1.0
+    const [red, green, blue] = [color.rgb.r, color.rgb.g, color.rgb.b]
+      .map((v) => v / 255);
 
     return {
       [colorName]: {
