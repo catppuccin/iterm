@@ -3,8 +3,6 @@ import {
   type ColorFormat,
   type Colors,
   flavorEntries,
-  type FlavorName,
-  flavors,
 } from "https://deno.land/x/catppuccin@v1.7.1/mod.ts";
 import plist from "https://esm.sh/v135/plist@3.1.0";
 
@@ -28,9 +26,7 @@ function toItermColor(rgb: ColorFormat["rgb"]): ITermColor {
   };
 }
 
-const termcolors = (flavorName: FlavorName, suffix?: "Dark" | "Light") => {
-  const flavor = flavors[flavorName];
-
+for (const [flavorIdentifier, flavor] of flavorEntries) {
   const ansiColors = Object.fromEntries(
     flavor.ansiColorEntries
       .flatMap(([_, { normal, bright }]) => [normal, bright])
@@ -38,9 +34,9 @@ const termcolors = (flavorName: FlavorName, suffix?: "Dark" | "Light") => {
       .map(({ code, rgb }) => [`Ansi ${code} Color`, toItermColor(rgb)]),
   );
 
-  const colors = flavor.colorEntries.reduce((acc, [colorName, color]) => {
+  const colors = flavor.colorEntries.reduce((acc, [colorIdentifier, color]) => {
     return {
-      [colorName]: toItermColor(color.rgb),
+      [colorIdentifier]: toItermColor(color.rgb),
       ...acc,
     };
   }, {} as Colors<ITermColor>);
@@ -58,24 +54,8 @@ const termcolors = (flavorName: FlavorName, suffix?: "Dark" | "Light") => {
     "Selected Text Color": colors.text,
   };
 
-  return Object.entries(mappings).reduce(
-    (acc, [k, v]) => ({
-      [suffix ? `${k} (${suffix})` : k]: v,
-      ...acc,
-    }),
-    {} as Record<string, ITermColor>,
-  );
-};
-
-flavorEntries.map(([flavorName]) => {
-  const combined = {
-    ...termcolors(flavorName),
-    ...termcolors("latte", "Light"),
-    ...termcolors(flavorName, "Dark"),
-  };
-
   Deno.writeTextFileSync(
-    `./colors/catppuccin-${flavorName}.itermcolors`,
-    plist.build(combined),
+    `./colors/catppuccin-${flavorIdentifier}.itermcolors`,
+    plist.build(mappings),
   );
-});
+}
