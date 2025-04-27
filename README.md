@@ -36,11 +36,11 @@
 ## Usage
 
 1. Download your preferred flavor(s) from [`colors/`](./colors/).
-3. Launch iTerm and open settings (<kbd>⌘ (Cmd)</kbd>+<kbd>i</kbd>).
-4. Navigate to the **Colors** tab > **Color Presets** > **Import**.
-7. Select the file(s) downloaded in step 1.
-8. Click on **Color Presets** and choose your flavor.
-9. Enjoy! :sparkles:
+2. Launch iTerm and open settings (<kbd>⌘ (Cmd)</kbd>+<kbd>i</kbd>).
+3. Navigate to the **Colors** tab > **Color Presets** > **Import**.
+4. Select the file(s) downloaded in step 1.
+5. Click on **Color Presets** and choose your flavor.
+6. Enjoy! :sparkles:
 
 ## 💝 Thanks to
 
