@@ -35,20 +35,13 @@
 
 ## Usage
 
-1. Clone the repository, or
-   [download](https://github.com/catppuccin/iterm/tree/main/colors) to pick and
-   choose specific flavours.
-2. Launch iTerm
-3. Press CMD+i (⌘+i)
-4. Navigate to the **Colors** tab
-5. Click on **Color Presets**
-6. Click on **Import**
-7. Navigate to the directory where you downloaded the files, and select the
-   files.
-   \
-   If you cloned the repo, they are in the `colors/` directory.
-8. Click on **Color Presets** and choose the Catppuccin flavour
-9. Enjoy! :sparkles:
+1. Download your preferred flavor(s) from [`colors/`](./colors/).
+2. Launch iTerm and open settings (<kbd>⌘ (Cmd)</kbd>+<kbd>,</kbd>).
+3. Select the **Profiles** tab and select your profile to edit.
+4. Navigate to the **Colors** section > **Color Preset** > **Import**.
+5. Select the file(s) downloaded in step 1.
+6. Click on **Color Presets** again to choose your flavor.
+7. Enjoy! :sparkles:
 
 ## 💝 Thanks to
 
